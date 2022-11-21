@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+=======
+>>>>>>> 77c004c (added project files)
+*{
+    box-sizing: border-box;
+}
+body{
+<<<<<<< HEAD
+    font-family: 'Muli', 'Ubuntu';
+=======
+    font-family: 'Poppins', 'Ubuntu';
+>>>>>>> 77c004c (added project files)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: auto  ;
+    margin: 0%;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.load{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bolder ;
+    justify-content: center;
+    align-items: center;
+}

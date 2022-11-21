@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+>>>>>>> 77c004c (added project files)
+
+* {
+  box-sizing: border-box;
+}
+body {
+<<<<<<< HEAD
+  font-family: 'Roboto';
+=======
+  font-family: "Roboto Mono";
+>>>>>>> 77c004c (added project files)
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+<<<<<<< HEAD
+  background-color: orangered;
+  /* background-color: rgb(17, 133, 179); */
+=======
+  background-color: rgb(17, 133, 179);
+>>>>>>> 77c004c (added project files)
+  color: #fff;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 60px;
+  text-align: center;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}

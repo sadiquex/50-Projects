@@ -1,0 +1,2 @@
+Javascript console has built-in object and methods for all keys.This application the inbuilt object methods into their respective columns.
+For spacebar,its actual key is " ", an exception so there's a section to handle that
